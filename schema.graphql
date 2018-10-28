@@ -1,0 +1,19 @@
+schema {
+    query: RootQueryType
+}
+
+type RootQueryType {
+    currentUser: CurrentUser
+}
+
+type CurrentUser {
+    id: ID
+    authToken: String
+    firstName: String
+    lastName: String
+    email: String
+    mobile: String
+    isOwner: Boolean
+    company: Company
+}
+

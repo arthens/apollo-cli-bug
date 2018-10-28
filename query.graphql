@@ -1,0 +1,6 @@
+query TestQuery {
+    currentUser {
+        id
+    }
+}
+
